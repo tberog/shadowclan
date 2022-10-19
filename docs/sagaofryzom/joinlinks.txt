@@ -1,0 +1,2 @@
+<a href="body.php?page=join" class="link1">How to join</a>
+<a href="body.php?page=expect" class="link1">What we expect</a>

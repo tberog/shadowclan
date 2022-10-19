@@ -1,0 +1,4 @@
+<a href="body.php?page=language" class="link1">Language</a>
+<a href="body.php?page=expect" class="link1">What we expect</a>
+<a href="body.php?page=ranks" class="link1">Ryzom Ranks</a>
+<a href="body.php?page=agenda" class="link1">Ryzom Agenda</a>
