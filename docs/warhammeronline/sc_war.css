@@ -1,0 +1,353 @@
+*{
+   margin:0;
+   padding:0;
+} 
+
+body {
+	font: 400 76%/1.6em Georgia, "Times New Roman", Times, serif; 
+	background-color: #0D6824;
+	text-align: center;
+}
+
+p {
+
+	margin-bottom: 15px;
+	margin-top: 12px;
+}
+
+ul {
+	margin-left: 35px;
+	padding: 10px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+blockquote{
+	margin-left: 35px;
+	font-style: italic;
+	padding: 10px;
+}
+
+
+#globalNav a:link, a:visited
+ {
+	color: #94D142;
+
+}
+
+a:link, a:visited{
+	color: #94D142;
+
+}
+
+
+h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20pt;
+	color: Silver;
+	font-weight: bold;
+	padding: 5px;
+}
+
+h2 {
+	font-family: "Bookman Old Style";
+	color: Silver;
+	letter-spacing: 1px;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	word-spacing: 5px;
+	text-align: center;
+}
+
+h3 {  
+	color: #000000; 
+	font-family: "Courier New", Courier, mono; 
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+h4 {  
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-weight: bold; 
+	padding-top: 10px; 
+	padding-bottom: 5px; 
+	text-decoration: underline;
+	text-align: center;
+}
+
+h5 {
+	color: Silver;
+	font-family: "Bookman Old Style";
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+h6 {
+	color: #000000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: medium;
+}
+
+
+#mainContainer
+{
+	width: 908px;
+   margin-left: auto;
+   margin-right: auto;
+	border: 1px solid Black;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding: 5px;
+	text-align: center;
+}
+
+#frontContainer
+{
+	width: 920px;
+   margin-left: auto;
+   margin-right: auto;
+	padding: 5px;
+	text-align: center;
+}
+
+#globalNav {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 1.75em;
+	font-family: Arial Black;
+}
+
+#quote
+{
+	margin: 20px;
+}
+
+#content
+{
+	margin-bottom: 0px;
+}
+
+#content2
+{
+	text-align: left;
+/*	border: 1px solid Black; */
+	padding: 5px;
+	padding-top: 20px;
+}
+
+
+#navlist ul 
+{
+	white-space: nowrap;
+	margin: 0px;
+}
+
+#navlist li 
+{
+	display: inline;
+	list-style-type: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14;
+	font-weight: bold;
+	color: Silver;
+	border-color: #000000;
+	border-style: solid;
+	background-color: #0D6824;
+	margin: 4px;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#navlist a:link, #navlist a:visited
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+   text-decoration: none;
+	text-align: center;
+ 	color: Silver;
+}
+
+
+#navlist a:hover
+{
+	text-decoration: none;
+	color: Black;
+}
+
+
+#header {  
+	height: 165x; 
+	width: 890px;
+	background-color: #0D6824;
+	padding: 5; 
+	margin-top: 0px; 
+	margin-bottom: 10px;
+	text-align: center;
+	-moz-border-radius: 1em;
+}
+
+
+#linkMenu {
+
+	width: 880px;
+	text-align: center;
+}
+
+#gameInfo {
+	margin: 30px;
+	border: 1px solid Black;
+	padding: 5px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #909E63;
+	text-align: center;
+}
+
+.subtext {
+	font-family: "Arial Black";
+	font-size: 10pt;
+	letter-spacing: 0.1em;
+	text-align: center;
+	vertical-align: top;
+	padding-bottom: 30px;
+	padding-top: 5px;
+}
+
+.basictext {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.descriptive {
+	font-size: 9pt;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+	text-indent: 25px;
+}
+
+.paragraph {
+	margin: 10px;
+}
+
+
+
+#content div{
+	margin-bottom: 100px;
+}
+
+#screenshot img{
+	border: 2px ridge;
+	padding: 0px;
+	margin-left: 20px;
+	border-color: #000000;
+}
+
+#contentPic{
+	text-align: center;
+}
+
+#contentPic img{
+	border: 10px ridge;
+	border-color: #00CC99;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+
+#contentInfo{
+	margin-bottom: 100px;
+	
+}
+
+#contentInfo img{
+	border: 3px ridge;
+	padding: 0px;
+	border-color: #3CB371;
+	margin-bottom: 40px;
+	margin-top: 15px;
+}
+
+#spacer{
+	text-align: center;
+	height: 90px;
+}
+
+#halfspacer{
+	text-align: center;
+	height: 45px;
+}
+
+.subLink
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 35px;
+	text-decoration: underline;
+}
+
+.subLink a:link, .subLink a:visited
+{
+	color: Navy;
+}
+
+.subLink a:hover
+{
+	color: #009999;
+}
+
+#copyright
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#sidebarRight
+{
+	width: 250px;
+	float: right;
+	background: #909E63;
+	margin: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 2px;
+	border: 2px solid;
+	border-color: Black;
+	-moz-border-radius: 5px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+#sidebarLeft
+{
+	width: 250px;
+	float: left;
+	background: #909E63;
+	margin: 2px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 2px;
+	border: 2px solid;
+	border-color: Black;
+	-moz-border-radius: 5px;
+	text-align: center;
+	font-family: "Comic Sans MS";
+	font-size: 15;
+}
