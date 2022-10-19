@@ -1,0 +1,134 @@
+body {
+	color: white;
+	background-color: black;
+	background-image: url(images/bgrd2ab.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font: 500 101% Georgia,serif;
+}
+
+p{
+	font-size:.75em;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner {
+	padding:5px;
+}
+
+#banner h1{
+	color: black;
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: .65em;
+	text-align: left;
+	text-transform: uppercase;
+	text-indent: 1.25em;
+	font-family: "Arial Black";
+}
+
+#content {
+	padding: 5px 15px 0 15px;
+	margin: 0px 0 0 0;
+}
+
+#about{
+	width: 690px;
+	margin: 0px 160px 0 30px;
+	line-height: 105%;
+	font-size: 1.25em;
+	text-indent: 1.25em;
+	padding: 0px 0 16px 0;
+	color: #000000;
+	font-weight: bold;
+}
+
+#about a{
+	color: White;
+	font-weight: bold;
+	text-decoration: none;
+	border: none;
+}
+
+#about p{
+	font-size: .8em;
+}
+
+#about h1{
+	font-size: 1.8 em;
+	font-weight: 200;
+	letter-spacing: .2em;
+}
+
+#about h2{
+	font-size: 1.1em;
+	font-weight: 200;
+	letter-spacing: .2em;
+	color: #FFFFFF;
+}
+
+#content p{
+	font-size: .8em;
+}
+
+#content h1{
+	font-size: 1.8 em;
+	font-weight: 200;
+	letter-spacing: .2em;
+}
+
+#content h2{
+	font-size: 1.1em;
+	font-weight: 200;
+	letter-spacing: .2em;
+	color: #EEE8AA;
+}
+
+#content h3{
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: #EEE8AA;
+	margin: -2px 0 -2px 0;
+}
+
+#content a{
+	color: #EEE8AA;
+	text-decoration: none;
+	border: none;
+}
+
+.game-link{
+	margin-top: 30px;
+}
+
+
+.game-link img{
+	margin: 0px 15px 0px 5px;
+	line-height:102%;
+	float: left;
+	padding:0 0 0 20px;
+}
+
+.game-link p{
+	color: #EEE8AA;
+	font-size:.75em; 
+}
+
+.game-link h3{
+	font-size:.9em; 
+}
+
+#footer {
+	clear: both;
+	padding: 15px;
+	margin-top: 0;
+}
+
+img {
+	border:none;
+}
