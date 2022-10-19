@@ -1,0 +1,148 @@
+App.progressCountTotal = 18;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/sleeves.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'sleeves.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/sleeves_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/sleeves_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/sleeves_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/sleeves_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/sleeves_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/sleeves_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000030.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'ScreenShot000030.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000030_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000030_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000030_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000030_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000030_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000030_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000029.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'ScreenShot000029.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000029_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000029_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000029_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000029_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000029_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000029_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000028.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'ScreenShot000028.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000028_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000028_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000028_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000028_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000028_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000027.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'ScreenShot000027.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000027_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000027_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000027_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000027_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000027_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000027_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000026.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'ScreenShot000026.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000026_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000026_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000026_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000026_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000026_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000026_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000025.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'ScreenShot000025.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000025_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000025_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000025_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000025_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000025_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000025_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000024.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'ScreenShot000024.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000024_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000024_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000024_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000024_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000024_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000024_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000023.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'ScreenShot000023.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000023_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000023_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000023_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000023_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000023_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000023_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000022.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'ScreenShot000022.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000022_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000022_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000022_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000022_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000022_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000022_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000021.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'ScreenShot000021.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000021_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000021_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000021_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000021_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000021_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000021_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000020.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'ScreenShot000020.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000020_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000020_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000020_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000020_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000020_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000020_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000019.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'ScreenShot000019.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000019_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000019_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000019_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000019_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000019_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000019_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000018.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'ScreenShot000018.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000018_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000018_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000018_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000018_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000018_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000018_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000017.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'ScreenShot000017.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000017_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000017_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000017_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000017_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000017_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000017_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000016.jpg');
+App.progressCountCurrent = 16;
+App.batchStatusString = 'ScreenShot000016.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000016_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000016_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000016_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000016_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000016_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000014.jpg');
+App.progressCountCurrent = 17;
+App.batchStatusString = 'ScreenShot000014.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000014_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000014_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000014_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000014_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000014_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000014_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/idw/sc/slideshow/ScreenShot000012.jpg');
+App.progressCountCurrent = 18;
+App.batchStatusString = 'ScreenShot000012.jpg';
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/images/ScreenShot000012_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/images/ScreenShot000012_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/images/ScreenShot000012_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000012_jpg.jpg') || confirm('file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000012_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/idw/sc/slideshow/output/thumbnails/ScreenShot000012_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-144, ySize:-144}));
+fw.closeDocument(doc);
+'done';
