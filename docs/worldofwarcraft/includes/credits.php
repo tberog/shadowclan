@@ -1,0 +1,1 @@
+<div id="credits"><p>&copy; 2004 Shadowclan.org</p>
