@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Shadowclan Irekei</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="scirekei2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="top"></div>
+<div class="content" id="left">
+
+    <p align="center"><img src="images/decor.gif" width="43" height="52" align="absmiddle" /></p>
+    <p align="left"><a href="index.html">About Shadowclan</a><br />
+    <a href="joining.html">Joining Shadowclan</a><br />
+    <a href="joining.html">Shadowclan Language</a><br />
+    <a href="members.html">Shadowclan Members</a><br />	
+    <a href="structure.html">Shadowclan Structure</a><br />
+    <a href="irc.html">IRC Guide</a><br />
+    <a href="http://www.shadowclan.org/darkmoot">Message board</a><br />
+
+  </p>
+  <p align="center"><img src="images/decor.gif" width="43" height="52" align="absmiddle" />
+    <br />
+  </p>
+  <h5>&nbsp; </h5>
+  </div>
+<div class="content" id="middle">
+  <h1>Joining Shadowclan</h1>
+  <p><a href="joining.html">Why join</a> | <a href="expectations.html">Expectations
+    of Members</a> | <a href="procedure.html">Joining
+    procedure</a> </p>
+
+  <h3>Why Join?</h3>
+  <p>Shadowclan is an open-membership guild dedicated to roleplaying a misunderstood, perhaps 'evil' race. 
+	We started in Ultima Online as a guild of player-character Orcs;
+    since then we have opened branches in numerous other games, always dedicated
+    to playing a limited selection of 'evil' (or, rather, 'misunderstood') races,
+    providing enjoyable enemies for the mainstream player to oppose. In Lineage II,
+    we are Orcs and certain Dark elf classes, races who allied to fight the infestation of humans and elves. </p>
+  <p>As a guild, we are dedicated both to high-quality roleplaying, and to highly
+    effective PVP. We roleplay our character fully and at all times. We do not talk smack with our enemies; our
+    goal is to create a vibrant, immersive, lore-compliant, and deadly nation. 
+	Note that we do not automatically kill all the 'pinkis' on sight; we
+    will collect tribute when convenient, and may occasionally even coordinate
+    military actions with non-Shadowclan guilds against a common foe.</p>
+  <h2>&nbsp;</h2>
+  <p><a href="joining.html">Why join</a> | <a href="expectations.html">Expectations
+    of Members</a> |  <a href="procedure.html">Joining
+    procedure</a> </p>
+
+  <p>&nbsp;</p>
+  <p>&copy; 2003 Shadowclan.org</p>
+  <p>&nbsp;</p>
+  <p></p>
+</div>
+<div class="content" id="right">
+  <h2>Dark Elves</h2>
+  <p> Evil and aloof. Dark elves have been betrayed by humans and elves, 
+  and thus hate them even more than the orcs do. 
+  Dark elves have grown to distrust even dark elves in other clans. 
+  They see orcs as primitive, and the dark elves allied with the 
+  Shadowclan orcs do so to further their own ends. The alliance is 
+  strong though, and though the two races taunt each other, there is 
+  an underlying respect between the two races for each others strengths 
+  and their willingness to work together. </p>
+</div>
+
+</body>
+</html>
