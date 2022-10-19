@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Shadowclan Orcs - Ultima Online Siege Perilous</title>
+<link rel="stylesheet" href="sc.css" type="text/css">
+</head>
+<body bgcolor="black" leftmargin="0" topmargin="0" rightmargin="0">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+		<td colspan="2">
+		<!--#include virtual="topnav.html"--> 
+		</td>
+</tr>
+<tr>
+		<td valign="top">
+		<!--#include virtual="leftnav.html"--> 
+		</td>
+		<td>
+		<table width="100%" cellpadding="5" cellspacing="0" border="0">
+		<tr>
+				<td>
+		<div class="TextT1Md"><h3>Getting Help</h3>
+Unsure about something? Need help getting started? Want to make sure you pick a good orcish name? When starting out, feel free to ask questions on our <a class="textLink" href="http://www.shadowclan.org/darkmoot/">message board</a>.
+<br><br>
+Also make use of our gruntee helpers who are more than happy to help you out over ICQ: 
+<br><br>
+Laz'tarul 82693821
+<br>
+Ri'kun 197263064
+<br>
+Glug 57734264
+<br>
+<br>
+Once in-game, feel free to ask any other orc for help and for their ICQ number. Just walk up and say "Me need help, wut lat pidgeon?" 
+<br><br>
+</div>
+			 </td>
+		</tr>
+		<tr>
+			<td align="center"><div class="TextT1Md">Get ICQ here (<a class="textLink" href="http://www.mirabilis.com">http://www.mirabilis.com</a>)</div></td>
+		</tr>
+		
+		</table>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

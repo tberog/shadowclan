@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Shadowclan Orcs - Ultima Online Siege Perilous</title>
+<link rel="stylesheet" href="sc.css" type="text/css">
+</head>
+<body bgcolor="black" leftmargin="0" topmargin="0" rightmargin="0">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+		<td colspan="2">
+		<!--#include virtual="topnav.html"--> 
+		</td>
+</tr>
+<tr>
+		<td valign="top">
+		<!--#include virtual="leftnav.html"--> 
+		</td>
+		<td>
+		<table width="100%" cellpadding="5" cellspacing="0" border="0">
+		<tr>
+				<td>
+		<div class="TextT1Md"><h3>EQUIPMENT</h3>
+<strong>All orcs may use this armor:</strong><br>
+Leather, Studded Leather, Ringmail, Orc Helm.  
+Bone armor is allowed except bone tunics and bone helms.
+<br><br>
+<strong>All non-mojoka may use these shields:</strong>
+<BR>
+Wooden, Brown kite, metal round, buckler.
+<br><br>
+<b>All non-mojoka may use these weapons:</b>
+<br>
+All 2-handed axes, mace, maul, club, war mace, war hammer, long spear, quarter staff, 
+short spear, kryss, war fork, cutlass, scimitar, bow, crossbow, heavy, crossbow, bardiche.  
+All little weapons (knives, daggers, hammers).<br /><br />
+All new Age of Shadows weapons are allowed except for the Lance, Scythe and Bone harvester (Bone harvester is usable only by Magruka).
+<br><br>
+<strong>Mojoka may use only:</strong>
+gnarled staff, quarter staff, black staff, wands, scrolls, robes, daggers, knives 
+<br><br>
+<strong>Magruka may use only:</strong>
+dagger, bone harvester, scythe, scepter.
+<br><br>
+<strong>The following are never allowed to be used by any orc:</strong> most swords, hammer pick, waraxe, halberd, katana, 
+lance, scythe, heater shield, bronze shield, metal kite shield,  
+chainmail, platemail, bone tunic/helm, leather cap, "Humie" clothes, and disguise kits.
+</P></div>
+			 </td>
+		</tr>
+		
+		
+		</table>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

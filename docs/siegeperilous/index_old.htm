@@ -1,0 +1,1373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+    <META NAME="Shadowclan" CONTENT="Shadowclan (tm)">
+    <BASE HREF="http://www.shadowclan.org/siegeperilous/">
+    <TITLE>index</TITLE>
+    <SCRIPT LANGUAGE="JavaScript" src="../dynapi/browsercheck.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" src="../dynapi/dynlayer.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" src="../dynapi/css.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript" src="../dynapi/liquid.js"></SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript">
+
+if (document.images)
+ {
+ var image1=new Image(); image1.src="images/IMGmenumiddle.jpg";
+ var image2=new Image(); image2.src="images/IMGmenutop.jpg";
+ var image3=new Image(); image3.src="images/IMGmenubottom.jpg";
+ var image4=new Image(); image4.src="images/IMGbadlreport.jpg";
+ var image5=new Image(); image5.src="images/IMGdaorcuzg.jpg";
+ var image6=new Image(); image6.src="images/IMGjoindaclan.jpg";
+ var image7=new Image(); image7.src="images/IMGhumiesgueer.jpg"; 
+ var image8=new Image(); image8.src="images/IMGguback.jpg";
+ var image9=new Image(); image9.src="images/IMGpageupdates.jpg";
+ var image10=new Image(); image10.src="images/IMGgameupdates.jpg";
+ var image11=new Image(); image11.src="images/IMGruleupdates.jpg";
+ var image12=new Image(); image12.src="images/IMGabout.jpg";
+ var image13=new Image(); image13.src="images/IMGclanstructure.jpg";
+ var image14=new Image(); image14.src="images/IMGclanrulz.jpg"; 
+ var image15=new Image(); image15.src="images/IMGclanhistory.jpg";
+ var image16=new Image(); image16.src="images/IMGproblemz.jpg";
+ var image17=new Image(); image17.src="images/IMGequipment.jpg";
+ var image18=new Image(); image18.src="images/IMGblahboard.jpg";
+ var image19=new Image(); image19.src="images/IMGmakeorc.jpg";
+ var image20=new Image(); image20.src="images/IMGgethelp.jpg";
+ var image21=new Image(); image21.src="images/IMGdisuzg.jpg";
+ var image22=new Image(); image22.src="images/IMGorcblah.jpg";
+ var image23=new Image(); image23.src="images/scfort.gif";
+ }
+
+function init()
+ {
+DynLayerInit()
+ this.last=welcome
+ this.currentlayer=0
+ }
+
+function loadlay()
+{
+	setTimeout("loaddelay()",2000);
+}
+
+function loaddelay(){
+	welcome.show()
+//	IMGbadlreport.show()
+	IMGjoindaclan.show()
+ 	IMGdaorcuzg.show()
+ 	IMGhumiegueer.show()
+	IMGmenutop.show()
+	IMGmenuLtop.show()
+	IMGmenuRtop.show()
+	IMGmenuLbottom.show()
+	IMGmenuRbottom.show()
+	IMGmenubottom.show()
+	loadingcall.hide()
+}
+	
+
+function hidemainlayer()
+ {
+ 	welcome.hide()
+ 	IMGbadlreport.hide()
+	IMGjoindaclan.hide()
+ 	IMGdaorcuzg.hide()
+ 	IMGhumiegueer.hide()
+ }
+
+function hidebadllayer()
+ {
+ 	IMGback.hide()
+ 	IMGbadlnews.hide()
+ 	IMGbadlpage.hide()
+ 	IMGbadlrules.hide()
+	IMGbadlgame.hide()
+ 	badlmain.hide()
+	this.last=welcome
+ }
+
+function hidejoinlayer()
+ {
+	
+	IMGmakeorc.hide()
+	IMGgethelp.hide()
+	IMGdisuzg.hide()
+	IMGorcblah.hide()
+	IMGback.hide()
+	this.last=welcome
+ }
+
+function hideorcuzglayer()
+ {
+ 	IMGorcuzgabout.hide()
+	IMGorcuzgclanorg.hide()
+	IMGorcuzghistory.hide()
+	IMGorcuzgclanrule.hide()
+	IMGorcuzgproblem.hide()
+	IMGorcuzgboard.hide()
+	IMGorcuzgequip.hide()
+	IMGback.hide()
+	orcuzgmain.hide()
+	this.last=welcome
+ }
+
+function hidehumielayer()
+ {
+ 	IMGhumiedisuzg.hide()
+	IMGhumieproblem.hide()
+	IMGhumieboard.hide()
+	IMGback.hide()
+	humiemain.hide()
+	this.last=welcome
+ }
+
+function hidecurrentlayer()
+ {
+	switch(this.currentlayer)
+	 {
+		case(0):
+		 {
+			hidemainlayer()
+		 };
+		 break;
+
+		case(1):
+		 {
+			hidejoinlayer()
+		 };
+		 break;
+
+		case(2):
+		 {
+			hideorcuzglayer()
+		 };
+		 break;
+
+		case(3): 
+		 {
+			hidebadllayer()
+		 };
+		 break;
+
+		case(4):
+		 {
+			hidehumielayer()
+		 };
+		 break;
+	 }
+ }
+function clickmouse(name)
+ {
+ 
+ this.last=name
+ name.show()
+ }
+
+function overmouse(name)
+ {
+ this.last.hide()
+ name.show()
+ }
+
+function outmouse(name)
+ {
+ name.hide()
+ this.last.show()
+ }
+
+function showbadllayer()
+  {
+	this.currentlayer=3
+	IMGback.show()
+ 	IMGbadlnews.show()
+ 	IMGbadlpage.show()
+ 	IMGbadlrules.show()
+	IMGbadlgame.show()
+ 	badlmain.show()
+  }
+
+function showjoinlayer()
+  {
+	this.currentlayer=1
+ 	IMGmakeorc.show()
+ 	IMGgethelp.show()
+ 	IMGdisuzg.show()
+ 	IMGorcblah.show()
+ 	IMGback.show()
+ 	joinmain.show()
+  }
+
+function showorcuzglayer()
+ {
+	this.currentlayer=2
+	IMGorcuzgabout.show()
+	IMGorcuzgclanorg.show()
+	IMGorcuzghistory.show()
+	IMGorcuzgclanrule.show()
+	IMGorcuzgproblem.show()
+	IMGorcuzgboard.show()
+	IMGorcuzgequip.show()
+	IMGback.show()
+	orcuzgmain.show()
+ }
+
+function showhumielayer()
+ {
+	this.currentlayer=4
+	IMGhumiedisuzg.show()
+	IMGhumieproblem.show()
+	IMGhumieboard.show()
+	IMGback.show()
+	humiemain.show()
+ }
+
+function showmainlayer()
+  {
+	this.currentlayer=0
+//	IMGbadlreport.show()
+	IMGjoindaclan.show()
+ 	IMGdaorcuzg.show()
+ 	IMGhumiegueer.show()
+	welcome.show()
+  }
+
+
+
+    </SCRIPT>
+
+</HEAD>
+
+<BODY ALINK="#008000" VLINK="#008000" LINK="#008000" BACKGROUND="images/bone2.jpg" BGCOLOR="#000000"
+ TEXT="#008000" onload="init(); loadlay();" onResize="makeLiquid()">
+
+<P>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+findWH()
+
+
+if (winW<800)
+ {
+	var leftmenu=1
+	var rightmenu=1+600
+ }
+
+else if (winW>799)
+ {
+	var leftmenu=(winW-800)/2
+	var rightmenu=winW-(leftmenu+200)
+ }
+
+
+ var pagecenter=winW/2
+ var leftdisplay=leftmenu+201
+
+
+writeCSS
+ ( css('loadingcallDiv',0,0,winW,winH,'black')+
+ css('IMGmenutopDiv',leftmenu,1,800,144,'black','hidden')+
+ css('IMGmenuLtopDiv',leftmenu,144,201,300,'black','hidden')+
+ css('IMGmenuRtopDiv',rightmenu,144,201,300,'black','hidden')+
+ css('IMGmenuLbottomDiv',leftmenu,444,201,300,'black','hidden')+
+ css('IMGmenuRbottomDiv',rightmenu,444,201,300,'black','hidden')+
+ css('IMGmenubottomDiv',leftmenu,744,800,106,'black','hidden')+
+
+ css('IMGbadlreportDiv',leftmenu+20,145,159,54,'black','hidden')+
+
+ css('IMGdaorcuzgDiv',leftmenu+20,220,159,54,'black','hidden')+
+ css('IMGjoindaclanDiv',rightmenu+20,145,159,54,'black','hidden')+
+ css('IMGhumiegueerDiv',rightmenu+20,220,159,54,'black','hidden')+
+
+ css('IMGmakeorcDiv',leftmenu+20,145,159,54,'black','hidden')+
+ css('IMGgethelpDiv',leftmenu+20,220,159,54,'black','hidden')+
+ css('IMGdisuzgDiv',rightmenu+20,145,159,54,'black','hidden')+
+ css('IMGorcblahDiv',rightmenu+20,220,159,54,'black','hidden')+
+ css('IMGbackDiv',rightmenu+20,445,159,54,'black','hidden')+
+ 
+
+ css('IMGbadlnewsDiv',leftmenu+20,145,159,54,'black','hidden')+
+ css('IMGbadlpageDiv',leftmenu+20,220,159,54,'black','hidden')+
+ css('IMGbadlgameDiv',rightmenu+20,145,159,54,'black','hidden')+
+ css('IMGbadlrulesDiv',rightmenu+20,220,159,54,'black','hidden')+
+
+ css('IMGorcuzgaboutDiv',leftmenu+20,145,159,54,'black','hidden')+
+ css('IMGorcuzgclanorgDiv',leftmenu+20,220,159,54,'black','hidden')+
+ css('IMGorcuzgclanruleDiv',rightmenu+20,145,159,54,'black','hidden')+
+ css('IMGorcuzghistoryDiv',rightmenu+20,220,159,54,'black','hidden')+
+ css('IMGorcuzgproblemDiv',leftmenu+20,295,159,54,'black','hidden')+
+ css('IMGorcuzgequipDiv',rightmenu+20,295,159,54,'black','hidden')+
+ css('IMGorcuzgboardDiv',leftmenu+20,370,159,54,'black','hidden')+
+
+ css('IMGhumiedisuzgDiv',leftmenu+20,145,159,54,'black','hidden')+
+ css('IMGhumieproblemDiv',leftmenu+20,220,159,54,'black','hidden')+
+ css('IMGhumieboardDiv',rightmenu+20,145,159,54,'black','hidden')+
+
+ css('welcomeDiv',leftdisplay,144,400,600,'black','hidden')+
+
+ css('badlmainDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlnewsDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlnewsscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlpageDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlpagescriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlgameDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlgamescriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlrulesDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('badlrulesscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinmainDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinmakeorcDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinmakeorc2Div',leftdisplay,144,400,600,'black','hidden')+
+ css('joinMorcDesDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joingethelpDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joingethelpscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joindisuzgDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joindisuzgSDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinorcblahDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('joinorcblahscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('backscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgmainDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgaboutDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgabout2Div',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgaboutscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanorgDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanorg2Div',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanorgscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanruleDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanrule2Div',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgclanrulescriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgproblemDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgproblemscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgboardDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgboardscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzghistoryDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzghistoryscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgequipDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('orcuzgequipscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('humiemainDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('humiescriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('humiedisuzgscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('humieproblemscriptDiv',leftdisplay,144,400,600,'black','hidden')+
+ css('humieboardscriptDiv',leftdisplay,144,400,600,'black','hidden')
+
+ )
+
+ //-->
+
+</SCRIPT>
+
+
+
+<!-- *****************	LOADING IMAGES	***********************-->
+<div id="loadingcallDiv">
+<br><br><br><br>
+<center><font size=+4 color="#FF0000">PLEASE WAIT</font><br><br>
+<font SIZE=+4 color="#FFFFFF">LOADING</font>
+<br>This may take up to 3 minutes to load
+<br><br><br><br>
+<font size=+2 color="#FFFF00">
+If you have your web browser's font size set very large <br> some text may not be viewable
+</font></center>
+</div>
+
+<!-- ***************** BACKGROUND MENU IMAGE ********************** -->
+
+
+<!-- TOP IMG -->
+	<div id="IMGmenutopDiv">
+		<IMG SRC="images/IMGmenutop.jpg" WIDTH="800" HEIGHT="144">
+	</div> 
+
+<!-- LEFT TOP MIDDLE IMG -->
+	<div id="IMGmenuLtopDiv"> 
+		<IMG SRC="images/IMGmenumiddle.jpg" WIDTH="201" HEIGHT="300"> 
+	</div> 
+
+<!-- RIGHT TOP MIDDLE IMG -->
+	<div id="IMGmenuRtopDiv">
+		<IMG SRC="images/IMGmenumiddle.jpg" WIDTH="201" HEIGHT="300"> 
+	</div> 
+
+<!-- LEFT BOTTOM MIDDLE IMG -->
+	<div id="IMGmenuLbottomDiv">
+		<IMG SRC="images/IMGmenumiddle.jpg" WIDTH="201" HEIGHT="300">
+	</div> 
+
+<!-- RIGHT BOTTOM MIDDLE IMG -->
+	<div id="IMGmenuRbottomDiv">
+		<IMG SRC="images/IMGmenumiddle.jpg" WIDTH="201" HEIGHT="300">
+	</div> 
+
+<!-- BOTTOM IMG -->
+	<div id="IMGmenubottomDiv">
+		<IMG SRC="images/IMGmenubottom.jpg" WIDTH="800" HEIGHT="106">
+	</div> 
+
+
+<!-- ********************* END BACKGROUP MENU IMAGE *************************** -->
+
+
+
+
+ <!-- ********************* MAIN PAGE *************************** -->
+
+
+<!-- BADL REPORT IMG BUTTON -->
+<div id="IMGbadlreportDiv"> 
+	<A HREF="javascript:clickmouse(badlmain),hidemainlayer(),showbadllayer()"
+	onMouseOver="overmouse(badlscript)" 
+	onMouseOut="outmouse(badlscript)">
+	<IMG SRC="images/IMGbadlreport.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div> 
+
+<div id="badlscriptDiv">
+<center>
+	<FONT SIZE=+2 COLOR="#800000">Bad'l Report</FONT><BR><BR>
+	<FONT SIZE=+2 COLOR="#DAA363">For all the latest News, Rules changes, Games updates, and Page updates.</FONT> 
+</center>
+</div> 
+
+<!-- DA ORC UZG IMG BUTTON --> 
+
+<div id="IMGdaorcuzgDiv">
+	<A HREF="javascript:clickmouse(orcuzgmain),hidemainlayer(),showorcuzglayer()"
+	onMouseOver="overmouse(orcuzgscript)"
+	onMouseOut="outmouse(orcuzgscript)">
+	<IMG SRC="images/IMGdaorcuzg.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div>
+
+<div id="orcuzgscriptDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Da Orc UZG's</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">In here you will find all the current information you will need  as a Shadowclan Orc </FONT>
+</P>
+</CENTER>
+</div>
+
+
+<!-- JOIN DA CLAN IMG BUTTON -->
+
+<div id="IMGjoindaclanDiv">
+	<A HREF="javascript:clickmouse(joinmain),hidemainlayer(),showjoinlayer()"
+	onMouseOver="overmouse(joinscript)" onMouseOut="outmouse(joinscript)">
+	<IMG SRC="images/IMGjoindaclan.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="joinscriptDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Join Da Clan</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">In here you will find all the information you need to start your new gruntee orc.</FONT>
+</P>
+</CENTER>
+</div> 
+
+
+<!-- HUMIES GU EER IMG BUTTON --> 
+
+<div id="IMGhumiegueerDiv">
+	<A HREF="javascript:clickmouse(humiemain),hidemainlayer(),showhumielayer()"
+	onMouseOver="overmouse(humiescript)"
+	onMouseOut="outmouse(humiescript)">
+	<IMG SRC="images/IMGhumiesgueer.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="humiescriptDiv">
+ <CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Humies Gu Heer</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">In here you will find all the information you will need  as a "humie" to help you get the most out of your orc encounters. </FONT>
+</P>
+</CENTER>
+</div> 
+
+<!-- WELCOME TEXT --> 
+<div id="welcomeDiv">
+<center>
+<font size=+2 color="#DAA363">Welcome to the website of the Shadowclan Orcs of Siege Perilous, Ultima Online</font>
+<BR><BR>
+In here you will find all the necessary information on becoming a new orc.
+There is also a little in here for you humies also! 
+</center>
+</div> 
+
+
+<!-- *********************** MAIN PAGE END ************************	-->
+
+
+
+
+
+ <!-- *********************** BADL REPORT PAGE *********************	-->
+
+
+ <!-- NEWS --> 
+
+<div id="IMGbadlnewsDiv"> 
+	<A HREF="javascript:clickmouse(badlnews)"
+	onMouseOver="overmouse(badlnewsscript)"
+	onMouseOut="outmouse(badlnewsscript)">
+	<IMG SRC="images/IMGorcnews.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div>
+
+<div id="badlnewsscriptDiv">
+<BR><BR>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">Look in here for all the latest news reguarding Shadowclan on the SP shard!</FONT></CENTER>
+</div>
+
+
+<!-- news goes here -->
+
+<div id="badlnewsDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Bad'l Report</FONT><BR><BR>
+
+
+<LEFT>Monday, November 08, 1999 12:56 PM</LEFT><HR WIDTH=399 SIZE=4>
+</CENTER>
+
+<FONT  COLOR="#DAA363">Well here it is the new Shadowclan homepage.  After long hours and sleepless night I have finnally managed to get enough of the site finished to open it up (with the help of T'berog of course).<BR><BR>As you have noticed we now have the shadowclan.com domian name, this will hopefully be our permenent home.  I am still in the process of trying to aquire the shadowclan.com, shadowclan.org, and shadowclan.net domains but i am having a difficult time getting ahold of the current owners.<BR><BR>Well, we are still in the process of getting the catskills and everquest pages moved over to our new home and should hopefully have them completed by the end of the month.<BR><BR>Please let me know what you think of the new site, we will be fine tunning the site over the next couple weeks and hope to try to keep this at least updated weekly with current events and such.<BR><BR><BR>Thanks<BR>Uguaguc Elder Nob </FONT>
+</P>
+</div> 
+
+
+<!-- PAGE UPDATES -->
+
+<div id="IMGbadlpageDiv"> 
+	<A HREF="javascript:clickmouse(badlpage)"
+	onMouseOver="overmouse(badlpagescript)"
+	onMouseOut="outmouse(badlpagescript)">
+	<IMG SRC="images/IMGpageupdates.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div>
+
+<div id="badlpagescriptDiv"><br><br>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">Check here for all the latest webpage updates and anouncments.  <BR><BR>Contact webmaster info also.</FONT SIZE></CENTER></div>
+
+
+<!-- page updates go here -->
+
+<div id="badlpageDiv"> 
+<P>
+<FONT COLOR="#daa363">Well as you can guess there are ALOT of page updates happing here.  I hope to have the page completed or close to it by the end of Nov.   If you find any problem with the page please let me know by sending me an email to <A HREF="mailto:uguaguc@shadowclan.com">uguaguc@shadowclan.com</A>
+</FONT></div> 
+</P>
+
+
+<!-- GAME UPDATES -->
+
+<div id="IMGbadlgameDiv">
+	<A HREF="javascript:clickmouse(badlgame)"
+	onMouseOver="overmouse(badlgamescript)"
+	onMouseOut="outmouse(badlgamescript)">
+	<IMG SRC="images/IMGgameupdates.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div>
+
+
+<div id="badlgamescriptDiv"><br><br>
+<CENTER><FONT SIZE=+2 COLOR="#daa363">Look in here for all the latest info on OSI updates to the game servers.</FONT></CENTER></div> 
+
+
+<!-- game updates go here --> 
+
+<div id="badlgameDiv">
+<br><br>
+<CENTER><FONT COLOR="#daa363">Latest game update on Nov 24.  artical coming soon</FONT></CENTER>.
+</div> 
+
+
+<!-- RULES UPDATES -->
+
+<div id="IMGbadlrulesDiv"> 
+<A HREF="javascript:clickmouse(badlrules)"
+	onMouseOver="overmouse(badlrulesscript)"
+	onMouseOut="outmouse(badlrulesscript)">
+	<IMG SRC="images/IMGruleupdates.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A>
+</div>
+
+
+<div id="badlrulesscriptDiv">
+<br><br>
+<CENTER><FONT SIZE=+2 COLOR="#daa363">Look in here fr all the current SC rule changes that are being discussed or have recently been implemented.</FONT></CENTER></div> 
+
+
+<!-- rule updates go here -->
+
+<div id="badlrulesDiv">
+<br><br>
+<FONT COLOR="#daa363">Currently there are no changes in discussion.  But please keep an eye here, all orcs are responsible for knowing about changes.</FONT></div> 
+
+
+<!-- MAIN BADL LAYER -->
+
+<div id="badlmainDiv">
+<br><br>
+<CENTER><FONT SIZE=21 COLOR="#800000">Shadowclan News Center </FONT>
+<br><br>
+<IMG SRC="images/hightreasure.jpg" ALT="High Treasure" Border=0 WIDTH=400 HEIGHT=320>
+</CENTER>
+</div> 
+
+
+<!-- ********************** BADL REPORT PAGE END *************************** -->
+
+
+
+
+
+ <!-- ********************** DA ORC UZG PAGE ******************************* -->
+
+
+ <!-- ABOUT --> 
+
+<div id="IMGorcuzgaboutDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgabout)"
+	onMouseOver="overmouse(orcuzgaboutscript)"
+	onMouseOut="outmouse(orcuzgaboutscript)">
+	<IMG SRC="images/IMGabout.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgaboutscriptDiv">
+<center><FONT SIZE=+2 COLOR="#daa363">Look in here for a brief description of Shadowclan on SP.</FONT></center>
+</div>
+
+<div id="orcuzgaboutDiv">
+<BR>
+
+<CENTER><FONT SIZE=+2 COLOR="#800000">About Shadowclan On Siege Perilous </FONT></CENTER>
+<FONT COLOR="#DAA363">
+<BR>
+Shadowclan on Ultima Online Siege Perilous is about roleplaying orcs and having fun while not ruining the fun of others.  
+We roleplay orcs that are often hostile to anyone invading our lands.  If you are looking for a fun community oriented guild
+with emphasis on roleplay and group cooperative PvP, then look no further.  If you are a humie, looking to interact with us, expect
+to battle with us unless you manage to offer cider and food to distract us long enough to get away.  Any human in the orc fort will be 
+attacked.
+<BR><BR>
+For those familiar with Shadowclan on Catskills, please note that Shadowclan Siege Perilous has different rules and structure.  
+Read up on the Shadowclan "Clan Rulz" (click button on the right) and note that we are much more aggressive on this shard.  
+If you encounter problems with members of Shadowclan on Siege Perilous, click on "Problemz" to the left.
+</FONT>
+<br><br>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgabout2),orcuzgabout.hide()">View Map </A>
+</FONT>
+</CENTER>
+</div>
+
+<div id="orcuzgabout2Div">
+<FONT  COLOR="#DAA363">
+<br><br>
+<CENTER>
+We are located in the Orc Fort that is South of Yew and Northwest of Britain 
+</FONT>
+<IMG SRC="images/findus.jpg" ALT="findus" WIDTH=380 HEIGHT=370 BORDER=0></CENTER>
+<br><CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgabout),orcuzgabout2.hide()">Back Page</A></FONT></CENTER></div>
+
+
+<!-- CLAN ORGANIZATION -->
+
+ <div id="IMGorcuzgclanorgDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgclanorg)"
+	onMouseOver="overmouse(orcuzgclanorgscript)"
+	onMouseOut="outmouse(orcuzgclanorgscript)">
+	<IMG SRC="images/IMGclanstructure.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgclanorgscriptDiv">
+<center><FONT SIZE=+2 COLOR="#daa363">Look in here for a breakdown of the organizational structure of the Shadowclan on SP.</FONT></center>
+</div> 
+
+
+<div id="orcuzgclanorgDiv"> 
+<CENTER><FONT SIZE=+2 COLOR="#800000">Clan Structure</FONT></CENTER>
+<br>
+<font color="#daa363">
+<center>
+The basic clan chain of command is : <br>
+Rukh grunts > Rukh-less grunts > Gruntees
+</center>
+<br><br>
+New members start out as gruntees and are promoted to grunt once
+they have learned the rules and passed the clan's grunt training process.
+Gruntees must follow the orders of grunts.
+<br><br>
+Any large group of grunts can form a Rukh 
+(large self-organizing armies of about 25 orcs; actual number required to form Rukh depends on current number of Rukh).  
+These Rukh are simply a chain of command for the members of the Rukh. 
+Any grunt can join or quit a Ruhk, though a Rukh-less grunt is lower ranked than any Rukh grunt.
+A Rukh can not restrict membership or set any restrictions beyond the general shadowclan rules, but
+it can place certain members at the bottom of the rukh chain of command. 
+A Rukh requires about 25 grunts initially to form, 
+and is disbanded if active membership drops below 20 
+(actual numbers depend on the current number of Rukhs in the clan).
+<br><br>
+</FONT>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgclanorg2),orcuzgclanorg.hide()">Next Page </A>
+</FONT>
+</CENTER>
+</div>
+
+
+<div id="orcuzgclanorg2Div">
+<FONT  COLOR="#DAA363">
+<br>
+Rukhs, while allowed to have disputes with each other, are not allowed to all-out war with each other.  
+Rukhs are encouraged (but not required) to cooperate by setting up cross rukh leadership based on mutual consent.  
+Any orc granted clan wide authority by ALL the rukh leaders can wear a cape.  
+Rukh leaders also have sashes at their disposal to indicate rukh ranks in any manner they chose.
+<br><br>
+Tribes are self-organizing small to large groups of grunts (at least 2 grunts required to form a tribe), 
+often based on a particular roleplay style, and often having their own internal chain of command. 
+Tribes can exist in a rukh or outside a rukh, but not across rukh (due to chain of command conflicts). 
+Tribal authority is entirely self-contained.  Unlike a Rukh, Tribes can place restrictions 
+(for example, addtional equipment limitations) on its members. It is common for a Rukh to have several tribes.
+<br><br>
+The organization of Siege Perilous Shadowclan is designed to simply provide the framework and basic guidelines.
+It is up to the members of the Clan to form the Rukhs and Tribes and make changes to them as necessary.  The structure opens 
+opportunity for leadership to any member who earns the respect of fellow members.
+<br><br>
+</FONT>
+
+<br><CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgclanorg),orcuzgclanorg2.hide()">Back Page</A></FONT></CENTER></div>
+
+
+
+
+
+ <!-- CLAN RULES --> 
+
+<div id="IMGorcuzgclanruleDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgclanrule)"
+	onMouseOver="overmouse(orcuzgclanrulescript)"
+	onMouseOut="outmouse(orcuzgclanrulescript)">
+	<IMG SRC="images/IMGclanrulz.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgclanrulescriptDiv">
+<center><FONT SIZE=+2 COLOR="#daa363">Look in here for all the laws and rules that govern Shadowclan on SP.</FONT></center>
+</div> 
+
+
+<div id="orcuzgclanruleDiv">
+<CENTER><FONT SIZE=+2 COLOR="#800000">Clan Rulz</FONT></CENTER>
+<br>
+Looting : <FONT COLOR="#daa363">Take what you can immediately use. Orcish weapons and armor, gold, etc. 
+Should also take away victim's fighting capability (weapons, arrows, reagents) if they are a threat to continue the fight. 
+If on toll trip, just take toll.  If player was verbally abusive, take a bit more. 
+Use good judgement.  Don't ruin the fun of others.  Never trash another player's equipment.  
+ Keep in mind this is a PvP shard designed to be harsh.  Higher ranked orcs have priority on looting.  
+Only Shadowclan orcs can loot on Shadowclan territory and orc lead trips. 
+As for looting other Shadowclan orcs - use your head and be aware of the potential consequences.  
+If (and only if) you are a higher rank - take what you need or want.  
+Everyone of every rank should pick up and hold things for your fellow orcs if you can. 
+Remember we are a community and can't function if we cripple our own members.</font>
+<br>
+Murder count : <FONT COLOR="#daa363">Orcs are required to be "red murderer" at all times.  
+(Rare exceptions granted only by specific approval
+of clan leadership).  This means you must have at least 5 murder counts at all times 
+(you can easily get these by killing NPC vendors, such as the farmers near Skara Brae.)
+</font>
+<br>
+
+<CENTER>
+
+<FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgclanrule2),orcuzgclanrule.hide()">Next Page </A>
+</FONT>
+</CENTER>
+</div>
+
+
+<div id="orcuzgclanrule2Div">
+<CENTER><FONT SIZE=+2 COLOR="#800000">Clan Rulz</FONT></CENTER>
+<br>
+Thingies : <FONT COLOR="#daa363">All items of any kind in an orc's possession technically belong to the Shadowclan community.
+Orcs are NOT allowed to use banks.
+Orcs are NOT allowed to be friended or co-ownered to any building.
+Only exception to the house rule are buildings maintained by Shadowclan.
+All grunts will have access to one building for shared storage purposes.
+Orcs are NOT allowed to have boats unless they have permission.
+</font>
+<br>
+Other : <FONT COLOR="#daa363">
+Stay In Character at all times while in-game. 
+Follow the equipment guidelines and the chain of command.  
+Do not call anyone Dewds or Pks.  They are all "pushdug humies" (stinky humans).  
+Do not be judgemental regarding the playstyle of other players.  
+Do not whine about how other players play the game (in-game or out of game). 
+We chose to come here and deal with the challenges of this unique shard. 
+If a problem can't be handled in-character, handle it out of game.  
+Show respect for each other, and other players not in Shadowclan.</font>
+<br><br>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(orcuzgclanrule),orcuzgclanrule2.hide()">Back Page</A>
+</CENTER></FONT>
+</div>
+
+
+
+
+ <!-- CLAN HISTORY --> 
+
+<div id="IMGorcuzghistoryDiv"> 
+	<A HREF="javascript:clickmouse(orcuzghistory)"
+	onMouseOver="overmouse(orcuzghistoryscript)"
+	onMouseOut="outmouse(orcuzghistoryscript)">
+	<IMG SRC="images/IMGclanhistory.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzghistoryscriptDiv">
+<center><FONT SIZE=+2 COLOR="#daa363">Look in here for stories and historical events of Shadowclan on SP.</FONT></center>
+
+</div> 
+
+
+<div id="orcuzghistoryDiv"> 
+<CENTER><FONT SIZE=+2 COLOR="#800000">Shadowclan History</FONT></CENTER>
+<BR>
+<FONT COLOR="#daa363">    
+Shadowclan began on Siege Perilous as a chaotic band of gruntees.  Over time, more and more orcs advanced to the 
+rank of grunt, bringing some stability and order to the clan.  Eventually twenty five grunts from three different tribes
+(the skull krackers, battle surgins, and blakfists) came together and formed the 
+<a href="http://members.tripod.com/ghaash/faction/" TARGET="_hukor">Hukor Rukh</a>, 
+an army deticated to the legendary warrior orc Hukor.  The first warboss of this Rukh was the Blakfist Parfug, 
+and he led the clan to many a great victory over the humans.
+<BR><BR>
+As the clan grew in size, the 
+<a href="http://members.home.net/sage565/Orc/Krath'Kuul/" TARGET="_krath">Krath'Kuul Rukh</a>
+ emerged.  Founded by the aged mojoka K'Dahbruh, the Krath'Kuul Rukh literally means
+"Army of Servants to the Gods."  Two tribes initially populated the Krath'Kuuls, the Followers of the Buurz'Ash and the Kyn'Tahj Tribe.
+<BR><BR>
+The two Rukhs united first under the Warlord  Parfug.   
+<br><br>
+Over the years, many Warlords, tribes and even Rukhs have come and gone. 
+What happens in the future is in the hand of the orcs themselves.
+</FONT>
+
+</div>
+
+
+ <!-- CLAN PROBLEM --> 
+
+<div id="IMGorcuzgproblemDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgproblem)"
+	onMouseOver="overmouse(orcuzgproblemscript)"
+	onMouseOut="outmouse(orcuzgproblemscript)">
+	<IMG SRC="images/IMGproblemz.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgproblemscriptDiv">
+<center><FONT SIZE=+2 COLOR="#daa363">Have a IC or OOC problem with an orc or humie character on SP, look here for info and contacts on how to deal with them.</FONT></center>
+</div> 
+
+
+<div id="orcuzgproblemDiv">
+<CENTER><FONT SIZE=+2 COLOR="#800000">Problems</FONT></CENTER>
+<br>
+<FONT COLOR="#daa363">If you have a problem with a member of Shadowclan, report it to Quality Control (QC).</font>
+<br>
+To do this, ICQ 23063396.
+<br>
+<FONT COLOR="#daa363">QC's job is to deal with orcs that are:</font>
+<ul type=circle> 
+<li>Harrassing
+<li>OOC Behavior
+<li>OOG actions that hurt clan
+<li>Traitors
+<li>Over looting
+<li>Failing to follow clan rules
+</ul>
+
+<FONT COLOR="#daa363">QC will handle problems by:</font>
+<ul type=circle>
+<li>Warning and educating the player
+<li>Demoting player to gruntee
+<li>Kicking player out of clan
+</ul>
+<br>
+<FONT COLOR="#daa363">Quality control is important in making sure Shadowclan stays true to its guiding
+prinicple of not ruining the fun of others.</font>
+</div>
+
+
+ <!-- CLAN EQUIPMENT --> 
+
+<div id="IMGorcuzgequipDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgequip)"
+	onMouseOver="overmouse(orcuzgequipscript)"
+	onMouseOut="outmouse(orcuzgequipscript)">
+	<IMG SRC="images/IMGequipment.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgequipscriptDiv">
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">Check here for all the Siege Perilous specific equipment resriction.</FONT SIZE></CENTER>
+</div> 
+
+
+<div id="orcuzgequipDiv"> 
+<CENTER><FONT SIZE=+2 COLOR="#800000">EQUIPMENT</FONT></CENTER><br><br>
+<p>
+<FONT SIZE=+1>All orcs may use this armor:</FONT SIZE><br>
+<FONT COLOR="#DAA363">Leather, Studded Leather, Ringmail, Orc Helm.  
+Bone armor is allowed except bone tunics and bone helms.</FONT>
+<br><br>
+<FONT SIZE=+1>All non-mojoka may use these shields: </FONT SIZE>
+<BR>
+<FONT COLOR="#DAA363">Wooden, Brown kite, metal round, buckler.</FONT>
+<br><br>
+<FONT SIZE=+1>All non-mojoka may use these weapons: </FONT SIZE>
+<br>
+<FONT COLOR="#daa363">All 2-handed axes, mace, maul, club, war mace, war hammer, long spear, 
+short spear, kryss, war fork, cutlass, scimitar, bow, crossbow, heavy, crossbow, bardiche.  
+All little weapons (knives, daggers, hammers).</FONT>
+<br><br>
+<FONT SIZE=+1>Mojoka may use only: </FONT>
+<FONT COLOR="#daa363">gnarled staff, quarter staff, black staff, wands, scrolls, robes, daggers, knives </FONT>
+<br><br><br>
+The following are never allowed to be used by any orc: most swords, hammer pick, waraxe, halberd, katana,  
+heater shield, bronze shield, metal kite shield,  
+chainmail, platemail, bone tunic/helm, leather cap, "Humie" clothes, and disguise kits.
+</P>
+</div>
+
+
+ <!-- CLAN BLAH BOARD --> 
+
+<div id="IMGorcuzgboardDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgboard)"
+	onMouseOver="overmouse(orcuzgboardscript)"
+	onMouseOut="outmouse(orcuzgboardscript)">
+	<IMG SRC="images/IMGblahboard.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="orcuzgboardscriptDiv">
+<center><font size=+2 color="#daa363">Need, or would like to get ahold of us?<br>  Come talk to us at the Ultimate Shadowclan message boards.<br> Look in here for details!</font></center>
+</div> 
+
+
+<div id="orcuzgboardDiv">
+<center><font size=+2 color="#800000">Orc Blah Board</font></center>
+<br>
+<FONT COLOR="#daa363">Use the message board to ask questions about us, keep up with events, or just to say "Ug":
+<br><center>
+<a href="http://www.shadowclan.com/login.html" TARGET="_message">Da Shadowclan Blah *Burp*</a></center></font>
+</div>
+
+<!-- MAIN ORC UZG LAYER -->
+
+<div id="orcuzgmainDiv"> 
+<center>
+<font size=+3 color="#800000">Da Orc Uzg</font>
+<br><br>
+<IMG SRC="images/scfort.gif" ALT="Shadow Clan Fort" Border=0 WIDTH=400 HEIGHT=320>
+</center>
+</div> 
+
+
+
+
+<!-- ********************** DA ORC UZG PAGE END ******************************* -->
+
+
+
+
+
+
+ <!-- *********************** JOIN DA CLAN PAGE *********************	-->
+
+
+
+ <!-- MAKE ORC --> 
+
+<div id="IMGmakeorcDiv"> 
+	<A HREF="javascript:clickmouse(joinmakeorc)"
+	onMouseOver="overmouse(joinMorcDes)"
+	onMouseOut="outmouse(joinMorcDes)">
+	<IMG SRC="images/IMGmakeorc.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="joinMorcDesDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Making an Orc</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">In here you will find information on creating a new orc</FONT>
+</P>
+</CENTER>
+</div> 
+
+<div id="joinmakeorcDiv"> 
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Making an Orc</FONT><BR><BR>
+</CENTER>
+
+<FONT COLOR="#DAA363">
+
+Remember, only one character is allowed per account on Siege Perilous.  So do it right the first time.
+<BR><BR>
+Select "Advanced" character creation.  Select 40 Strength, 15 Dexterity, and 10 Intelligence.
+Pick 50 hiding (must be able to hide to join).  
+As an orc, you can use any skill EXCEPT magery (only Mojoka can use magery).  
+There are no mojoka spots available at this time.  When spots open up, it will be announced on the  
+<A HREF=http://www.shadowclan.com/login.html" TARGET="_message">message board</A>).
+<BR><BR>
+Choose an Orcish Name.  Click <A HREF="ultimaorcnames.htm" TARGET="_names">here</A>  for some example names.  
+Note that your name must not be based on humie words, it must have proper capitalization, and must not be in use by another member.  
+Add apostrophes to help make your name unique and  
+do a name search <A HREF="http://town.uo.com/guilds/shard_13.html" TARGET="_siegenames">here</A> 
+to make sure you aren't using someone else's name.  Then you may want to click on "Get Help" 
+to verify that your name is acceptable.
+<BR><BR>
+
+</FONT>
+
+
+<CENTER>
+
+<FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(joinmakeorc2),joinmakeorc.hide()">More Instructions </A>
+</FONT>
+</CENTER>
+</div>
+
+
+<div id="joinmakeorc2Div">
+<CENTER><FONT SIZE=+2 COLOR="#800000">Making an Orc<br>Continued</FONT></CENTER>
+<br>
+<FONT COLOR="#DAA363">
+Select NO hair, and NO facial hair.  
+Orcish light green skin is strongly preferred (2 from the right, 3 from the top is a pretty good color).  
+You can be a male or a female orc.
+<BR><BR>
+Start in Yew, and go straight to the orc fort.  Click on "Diz Uzg" for directions.
+Alternatively, start in Skara Brae and get your murder counts right away by killing the farmers
+on the mainland, so that you can get on the clan guildstone right away.  
+It is useful to know some orcish words starting out, click "Orc Blah"<BR>
+<br>
+</font>
+<CENTER><FONT SIZE=+2 COLOR="#DAA363">
+<A HREF="javascript:clickmouse(joinmakeorc),joinmakeorc2.hide()">Back Page</A>
+</CENTER></FONT>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- GET HELP --> 
+
+<div id="IMGgethelpDiv">
+	<A HREF="javascript:clickmouse(joingethelp)"
+	onMouseOver="overmouse(joingethelpscript)"
+	onMouseOut="outmouse(joingethelpscript)">
+	<IMG SRC="images/IMGgethelp.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="joingethelpscriptDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Getting Help</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">Need someone to get ahold of for questions?<BR>look in here!</FONT>
+</P>
+</CENTER>
+</div> 
+
+
+<div id="joingethelpDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Getting Help</FONT><BR><BR>
+</CENTER><BR><BR>
+<FONT  COLOR="#DAA363">
+Unsure about something?  Need help getting started?  
+Want to make sure you pick a good orcish name?  
+When starting out, feel free to ask questions on our 
+<A HREF="http://www.shadowclan.com/login.html" TARGET="_message">message board</A>.
+<BR><BR>
+Also make use of our gruntee helpers who are more than happy to help you out over ICQ:
+<BR>
+<BR>
+Gorg'da'guud 44118156
+<BR>
+Blok 121085894
+<BR>
+Nub'lat 6410969
+<BR>
+Snog 7453295
+<BR>
+<BR>
+Once in-game, feel free to ask any other orc for help and for their ICQ number.  
+Just walk up and say "Me need help, wut lat pidgeon?"
+<BR><BR>
+<CENTER>Get ICQ here <A HREF="http://www.mirabilis.com" TARGET="_new">(http://www.mirabilis.com)</A></CENTER></FONT>
+</P>
+</div> 
+
+
+
+
+
+
+<!-- DIZ UZG --> 
+
+<div id="IMGdisuzgDiv">
+	<A HREF="javascript:clickmouse(joindisuzg)"
+	onMouseOver="overmouse(joindisuzgS)"
+	onMouseOut="outmouse(joindisuzgS)">
+	<IMG SRC="images/IMGdisuzg.jpg" WIDTH=159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="joindisuzgSDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Dis Uzg</FONT><BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">No idea where the Shadowclan fort is?<BR>Look in here!</FONT>
+</P>
+</CENTER>
+</div> 
+
+
+<div id="joindisuzgDiv"> 
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Dis Uzg</FONT><BR><BR>
+
+<FONT  COLOR="#DAA363">
+
+We are located in the Orc Fort that is South of Yew and Northwest of Britain.
+<BR><BR>
+<IMG SRC="images/findus.jpg" ALT="findus" WIDTH=385 HEIGHT=385 BORDER=0></CENTER>
+</FONT>
+</P>
+</CENTER>
+</div> 
+
+
+
+
+
+
+<!-- ORC BLAH --> 
+
+<div id="IMGorcblahDiv">
+	<A HREF="javascript:clickmouse(joinorcblah)"
+	onMouseOver="overmouse(joinorcblahscript)"
+	onMouseOut="outmouse(joinorcblahscript)">
+	<IMG SRC="images/IMGorcblah.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="joinorcblahscriptDiv">
+<CENTER>
+<P>
+<FONT SIZE=+2 COLOR="#800000">Orc Blah</FONT><BR><BR><FONT SIZE=+2 COLOR="#DAA363">Having a little trouble speaking or understanding the Orc language?<BR><BR>Look in here for some helpful info!</FONT>
+
+</P>
+</CENTER>
+</div> 
+
+
+
+<div id="joinorcblahDiv"> 
+<CENTER>
+<FONT SIZE=+2 COLOR="#800000">Orc Blah</FONT><BR><BR>
+</CENTER>
+<FONT  COLOR="#DAA363">
+Here are some special common orc words that you should know.  Most other words we use are simply mispellings of English words.
+</FONT><CENTER><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD>
+<UL TYPE=CIRCLE>
+<FONT  COLOR="#DAA363">
+<LI>Lat = You
+<LI>Yub = Yes
+<LI>Nub = No
+<LI>Gruk = Understand
+<LI>Ug = Hail
+<LI>Gug'ye = Goodbye
+<LI>Thanks = Rulg 
+<LI>Rukh = Army
+<LI>Tribe = Collection of orcs
+<LI>Hukor = Legendary orc
+<LI>Krath = Gods
+<LI>Kuul = Servants
+<LI>Goth = Master
+</FONT>
+</UL>
+</TD>
+<TD>
+<UL TYPE=CIRCLE>
+<FONT  COLOR="#DAA363">
+<LI>Mog = Voice
+<LI>Lusk = Axe
+<LI>Zult = Scimitar
+<LI>Womp = Mace
+<LI>Kigg = Spear
+<LI>Igg = Dagger
+<LI>Oligr = Bow
+<LI>Shinies = Gold
+<LI>Ash = One
+<LI>Dub = Two
+<LI>Gahk = Three
+<LI>Futh = four
+<LI>H = Five
+</FONT>
+</UL>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=2>
+<UL TYPE=CIRCLE>
+<FONT  COLOR="#DAA363">
+<LI>Gruntee = New member of shadowclan
+<LI>Grunt = Older member of shadowclan (full member)
+<LI>Mojokii = Magic using gruntee
+<LI>Mojoka = Magic using grunt
+<LI>Elder = Founder of Shadowclan
+<LI>Makr = Orc that makes things
+<LI>Luskr = Orc that uses axe
+<LI>Me = I (orcs never refer to themselves as "I")
+</FONT>
+</UL>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</div> 
+
+
+
+<!-- MAIN JOIN LAYER -->
+
+<div id="joinmainDiv"> 
+<CENTER>
+<BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">Joining the Clan!</FONT SIZE>
+<IMG SRC="images/joinus.jpg" ALT="Join Us" WIDTH=380 HEIGHT=369 BORDER=0>
+</CENTER>
+</div>
+
+
+
+
+
+
+
+<!-- ********************** JOIN DA CLAN PAGE END *************************** -->
+
+
+
+
+
+
+
+
+ <!-- *********************** HUMIES PAGE ********************* --> 
+
+<!-- HUMIES DIS UZG -->
+
+<div id="IMGhumiedisuzgDiv">
+	<A HREF="javascript:clickmouse(joindisuzg),humiedisuzgscript.hide()"
+	onMouseOver="overmouse(humiedisuzgscript)"
+	onMouseOut="outmouse(humiedisuzgscript)">
+	<IMG SRC="images/IMGdisuzg.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div> 
+
+<div id="humiedisuzgscriptDiv">
+<center><font size=+2 color="#daa363">So, you are a smelly humie and would like to know where to find us on SP?<br>  Well then look in here dupid humie!</font></center>
+</div>
+
+
+
+
+<!-- HUMIES PROBLEMS -->
+
+<div id="IMGhumieproblemDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgproblem),humieproblemscript.hide()"
+	onMouseOver="overmouse(humieproblemscript)"
+	onMouseOut="outmouse(humieproblemscript)">
+	<IMG SRC="images/IMGproblemz.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div>
+
+<div id="humieproblemscriptDiv"> 
+<center><font size=+2 color="#daa363">Having problems with a Shadowclan orc?<br>  Look in here for info on how and who to contact to help resolve the issues.</font></center>
+</div> 
+
+<!-- --> 
+
+
+<!-- HUMIES BLAH BOARD --> 
+
+<div id="IMGhumieboardDiv"> 
+	<A HREF="javascript:clickmouse(orcuzgboard),humieboardscript.hide()"
+	onMouseOver="overmouse(humieboardscript)"
+	onMouseOut="outmouse(humieboardscript)">
+	<IMG SRC="images/IMGblahboard.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div>
+
+<div id="humieboardscriptDiv"> 
+<center><font size=+2 color="#daa363">Need, or would like to get ahold of us?<br>  Come talk to us at the Ultimate Shadowclan message boards!<br> Look in here for details!</font></center>
+</div> 
+
+
+
+<!-- MAIN HUMIES LAYER --> 
+<div id="humiemainDiv"> 
+<CENTER>
+<BR>
+<FONT SIZE=+2 COLOR="#DAA363">Ug Smelly Humie!<BR>Lat tink lat smarter dan orc?</FONT SIZE>
+<IMG SRC="images/hightreasure.jpg" ALT="Treasure in Tree" >
+</CENTER>
+</div> 
+
+
+<!-- ************************ HUMIES PAGE END *************************** -->
+
+
+
+
+
+
+
+<!-- ************************ GU BACK BUTTON *************************** -->
+
+<div id="IMGbackDiv">
+	<A HREF="javascript:hidecurrentlayer(),showmainlayer()"
+	onMouseOver="overmouse(backscript)"
+	onMouseOut="outmouse(backscript)">
+	<IMG SRC="images/IMGguback.jpg" WIDTH="159" HEIGHT="54" BORDER="0"></A> 
+</div>
+
+<div id="backscriptDiv">
+<CENTER>
+<P>
+<BR><BR>
+<FONT SIZE=+2 COLOR="#DAA363">CLICK HERE TO GO BACK TO MAIN PAGE</FONT>
+</P>
+</CENTER>
+</div>
+
+<!-- ************************ BACK BUTTON END *************************** -->
+
+
+
+ </P>
+</BODY>
+</HTML>

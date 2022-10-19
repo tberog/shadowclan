@@ -1,0 +1,22 @@
+h3   {	font-family:arial, helvetica, sans-serif;	font-size:15pt; color:#800000; font-weight:bold; }
+td	 {	font-family:arial, helvetica, sans-serif;	font-size:10pt; color:silver}
+
+.TextT1Sm {	font-family:arial, helvetica, sans-serif;	font-size:7.5pt; color:white }
+.TextT1Md {	font-family:arial, helvetica, sans-serif;	font-size:10pt; color:silver}
+.TextT1Lg {	font-family:arial, helvetica, sans-serif;	font-size:12pt; color:white}
+.TextT1LgB {	font-family:arial, helvetica, sans-serif;	font-weight:bold;	font-size:12pt; color:white}
+.TextT2Sm {	font-family:verdana, geneva, sans-serif;	font-size:7.5pt; color:white}
+.TextT2Md {	font-family:verdana, geneva, sans-serif;	font-size:10pt; color:white}
+.TextT2Lg {	font-family:verdana, geneva, sans-serif;	font-size:12pt; color:white}
+
+.mainLinkTextMs {	font-family:verdana, geneva, sans-serif;	font-size:11px;	font-weight:bold;	color:#CEB481;	text-decoration:none; }
+a.mainLinkTextMs:link, a.mainLinkTextMs:visited {	color:#CEB481; }
+a.mainLinkTextMs:hover {	color:#B90F0D; }
+
+.mainLink {		font-size:14px;	font-family:verdana, geneva, sans-serif;	font-weight:bold;	color:#CEB481;	text-decoration:underline; }
+a.mainLink:link, a.mainLink:visited {	color:#CEB481; }
+a.mainLink:hover {	color:#B90F0D; }
+
+.textLink {		font-size:10pt;	font-family:verdana, geneva, sans-serif;	font-weight:bold;	color:#CEB481;	text-decoration:underline; }
+a.textLink:link, a.textLink:visited {	color:#CEB481; }
+a.textLink:hover {	color:#B90F0D; }

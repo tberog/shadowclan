@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+<title>Shadowclan Orcs - Ultima Online Siege Perilous</title>
+<link rel="stylesheet" href="sc.css" type="text/css">
+</head>
+<body bgcolor="black" leftmargin="0" topmargin="0" rightmargin="0">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+		<td colspan="2">
+		<!--#include virtual="topnav.html"--> 
+		</td>
+</tr>
+<tr>
+		<td valign="top">
+		<!--#include virtual="leftnav.html"--> 
+		</td>
+		<td>
+		<table width="100%" cellpadding="5" cellspacing="0" border="0">
+		<tr>
+				<td>
+		<div class="TextT1Md"><h3>Clan Structure</h3>
+
+
+The basic clan chain of command is : <br />
+Rukh grunts > Rukh-less grunts > Gruntees <br /><br />
+
+
+New members start out as gruntees and are promoted to grunt once they have learned the rules and passed the clan's grunt training process. Gruntees must follow the orders of grunts. <br /><br />
+
+Any large group of grunts can form a Rukh (large self-organizing armies of about 25 orcs; actual number required to form Rukh depends on current number of Rukh). These Rukh are simply a chain of command for the members of the Rukh. Any grunt can join or quit a Ruhk, though a Rukh-less grunt is lower ranked than any Rukh grunt. A Rukh can not restrict membership or set any restrictions beyond the general shadowclan rules, but it can place certain members at the bottom of the rukh chain of command. A Rukh requires about 25 grunts initially to form, and is disbanded if active membership drops below 20 (actual numbers depend on the current number of Rukhs in the clan).</div>
+			 <br /><div class="TextT1Md">
+
+Rukhs, while allowed to have disputes with each other, are not allowed to all-out war with each other. Rukhs are encouraged (but not required) to cooperate by setting up cross rukh leadership based on mutual consent. Any orc granted clan wide authority by ALL the rukh leaders can wear a cape. Rukh leaders also have sashes at their disposal to indicate rukh ranks in any manner they chose. 
+<br /><br />
+Tribes are self-organizing small to large groups of grunts (at least 2 grunts required to form a tribe), often based on a particular roleplay style, and often having their own internal chain of command. Tribes can exist in a rukh or outside a rukh, but not across rukh (due to chain of command conflicts). Tribal authority is entirely self-contained. Unlike a Rukh, Tribes can place restrictions (for example, addtional equipment limitations) on its members. It is common for a Rukh to have several tribes. 
+<br /><br />
+The organization of Siege Perilous Shadowclan is designed to simply provide the framework and basic guidelines. It is up to the members of the Clan to form the Rukhs and Tribes and make changes to them as necessary. The structure opens opportunity for leadership to any member who earns the respect of fellow members.</div>
+			 </td>
+		</tr>
+		
+		
+		</table>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>
