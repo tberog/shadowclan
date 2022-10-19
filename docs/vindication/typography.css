@@ -1,0 +1,90 @@
+body{
+	font-size: 76%;
+	font-weight: 400;
+	font-family: "Lucida Sans Unicode", Tahoma, Helvetica, Arial;
+	line-height: 1.7em;
+	background-color: #121123;
+	background-image: url(images/pattern.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p{
+	font-size:.95em;
+	padding:.25em 0 0.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family:	Georgia, "Times New Roman";
+}
+ul{
+	margin: 0 16px;
+}
+blockquote{
+	margin: 12px 24px;
+	font-style: italic;
+	color: #990000;
+}
+h1{
+	color:#C8261E;
+	font-size: 2em;
+	font-weight:500;
+}
+h2{
+	color:#fff;
+	font-size: 1.5em;
+	font-weight:500;
+}
+h3{
+	color:#000;
+	font-size: 1.1em;
+	font-weight:700;
+}
+#sidebar h2{
+	background-color: #000;
+	padding: 5px 12px;
+	background: url(images/heading-bkgd.gif) repeat-x;
+
+}
+#content h2{
+	background-color:#000;
+	background: url(images/heading-bkgd.gif) repeat-x;
+	padding:5px;
+
+}
+.post{
+		background-color: #EADEBB;
+	border: 1px solid #ccc;
+	border-bottom:2px solid #aaa;
+	border-top:none;
+	margin:0 0 15px 0;
+	padding:5px 6px 12px 6px;
+}
+.post p{
+	padding:.75em .5em;
+}
+#footer p{
+	font: 400 .85em Georgia, "Times New Roman";
+}
+a{
+	color: #353168;
+	font-weight:500;
+	text-decoration: underline;
+}
+.post ol li{
+	list-style: decimal;
+	margin:0 0 0 30px;
+	color:#000;
+}
+.post ul li{
+	margin:0 0 0 30px;
+	color:#000;
+	list-style: disc;
+}
+#contactform{
+	border: dotted 1pt #996600;
+}
+#contactform p{
+	line-height: 1.1em;
+}

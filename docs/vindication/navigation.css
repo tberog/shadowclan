@@ -1,0 +1,35 @@
+#sidebar{
+	font-size:.95em;
+}
+#sidebar ul{
+	list-style-type:none;
+font-family:Georgia, "Times New Roman";
+line-height:1.5em;
+}
+.nav ul, li{
+	list-style-type:none;
+	text-align:left;
+	margin:8px 0;
+}
+.nav a{
+	color: #353168;
+	font-weight:500;
+	text-decoration:none;
+}
+.nav a:hover{
+	font-weight:700;
+}
+.secondNav li{
+	margin-left:12px;
+}
+.secondNav ul, li{
+	color: #B95D00;
+}
+.secondNav a{
+	color: #B95D00;
+	font-weight:500;
+	text-decoration:none;
+}
+.secondNav a:hover{
+	font-weight:700;
+}
