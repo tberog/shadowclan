@@ -1,0 +1,60 @@
+<html> <head> <title>Shadowclan Pict - Organization</title> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<link rel="stylesheet" href="shadowclan.css"> <style type="text/css"> <!-- --> </style> </head>
+
+<body>
+
+<div id="mainContainer">
+
+<div id="globalNav">
+	<span style="float:right;"><a href="http://www.shadowclan.org/darkmoot">Shadowclan Forums</a></span>
+	<span style="float:left;"><a href="http://www.shadowclan.org">Shadowclan Homepage</a></span>
+</div>
+	
+
+<div id="header">  	 <div id=""> <img src="Shadowclan_Pict.jpg" width="800" height="150" hspace="0" border="0"></a><br> 		<h1>ORGANIZATION</h1> 	</div> </div>
+
+<div id="linkMenu">
+	<ul id="navlist">
+		<li><a href="about.htm">About</a></li>
+		<li><a href="character_create.htm">Character Creation</a></li>
+		<li><a href="equipment.htm">Equipment</a></li>
+		<li><a href="organization.htm">Organization</a></li>
+		<li><a href="language.htm">Language</a></li>
+		<li><a href="roleplay.htm">Roleplay</a></li>
+	</ul>
+</div>
+
+<div id="content2" class="basictext">
+
+<p></p>
+<p>Picts are tribal in nature with the various tribes being led by chiefs. Tribes are named and known for the totem animals they revere, and their tribe is often named for that patron.</p>
+
+<h2>Ranks</h2>
+
+<ul>
+	<li><b>Chieftan</b> - Supreme leader of the Shadowclan Pict in and out of game. This person is responsible for the overall direction and leadership of the branch.</li>
+	<li><b>Warchief</b> - In and out of game clan leaders, their orders are to be obeyed at all times. These are very experienced clan members, if they ask you to do something, they always have a good reason. If you have concerns or questions about what a Warchief is saying or doing bring them up privately with a /tell or a PM on the forums.</li>
+	<li><b>Elder</b> - These are Full Clan members who have sworn their oath to Shadowclan. As the main force of any Shadowclan branch, they set good examples by following the rules and helping guide clan members who are still learning our ways.</li>
+	<li><b>Kinsman</b> - Initiate member to Shadowclan, they have proven you understand the basics but still have a journey of learning and experience in front of them.</li>
+</ul>
+
+<div id="spacer"></div>
+
+<div id="linkMenu">
+	<ul id="navlist">
+		<li><a href="about.htm">About</a></li>
+		<li><a href="character_create.htm">Character Creation</a></li>
+		<li><a href="equipment.htm">Equipment</a></li>
+		<li><a href="organization.htm">Organization</a></li>
+		<li><a href="language.htm">Language</a></li>
+		<li><a href="roleplay.htm">Roleplay</a></li>
+	</ul>
+</div>
+
+
+</div>
+
+
+</body> </html>

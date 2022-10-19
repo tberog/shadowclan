@@ -1,0 +1,46 @@
+<html> <head> <title>Shadowclan Pict</title> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<link rel="stylesheet" href="shadowclan.css"> <style type="text/css"> <!-- --> </style> </head>
+
+<body>
+
+<div id="frontContainer">
+
+<div id="globalNav">
+	<span style="float:right;"><a href="http://www.shadowclan.org/darkmoot">Shadowclan Forums</a></span>
+	<span style="float:left;"><a href="http://www.shadowclan.org">Shadowclan Homepage</a></span>
+</div>
+	
+
+<div id="header">  	 <div id=""> <img src="Shadowclan_Pict.jpg" width="800" height="150" hspace="0" border="0"></a></div> 
+
+<div id="halfspacer"></div>
+
+<h5>Shadowclan Picts are a roleplaying guild who can be found inhabiting the Cimmerian server in Age of Conan.</h5>
+
+<h5>Current Chieftan: Kturu</h5>
+
+<div id="halfspacer"></div>
+
+<h5>Click on the links below to learn more.</h5>
+
+<div id="halfspacer"></div>
+
+<div id="linkMenu">
+	<ul id="navlist">
+		<li><a href="about.htm">About</a></li>
+		<li><a href="character_create.htm">Character Creation</a></li>
+		<li><a href="equipment.htm">Equipment</a></li>
+		<li><a href="organization.htm">Organization</a></li>
+		<li><a href="language.htm">Language</a></li>
+		<li><a href="roleplay.htm">Roleplay</a></li>
+	</ul>
+</div>
+</div>
+
+
+
+
+
+</body> </html>
