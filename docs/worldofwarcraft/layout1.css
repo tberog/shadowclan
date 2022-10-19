@@ -1,0 +1,71 @@
+/*layout*/
+
+/* import CSS for compliant browsers */
+/* ------------------------------------------------------- */
+@import url(typography.css);
+@import url(nav.css);
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #BD9476;
+}
+/***************** page background images
+Background image size is 400 x 968, covering screen resolutions from 800 x 600 up to 1280 x 968.
+The content area remains the same size regardless of resolution, however the background image 
+revealed varies from one screen resolution to another. 
+For larger resolutions the image will repeat itself on the y axis but not the x.
+************/
+#memberpp{
+	background: #BD9476 url(images/background-m.jpg) repeat-y fixed 700px 0;
+}
+#indexpp{
+	background: #BD9476 url(images/background-i.jpg) repeat-y fixed 700px 0;
+}
+#joiningpp{
+	background: #BD9476 url(images/background-j.jpg) repeat-y fixed 700px 0;
+}
+#faqpp{
+	background: #BD9476 url(images/background-f.jpg) repeat-y fixed 700px 0;
+}
+
+/* reset whitespace */
+* {
+	padding:0;
+	margin:0;
+}
+
+
+#container {
+			width: 700px;
+			\width: 700px;/*adds up to width + left & right margin widths*/
+			w\idth: 700px;
+		}
+
+#banner {
+			padding: 10px;
+			margin:0;
+			width:700px;
+		}
+
+#column2 {
+			padding: 10px;
+			margin-left: 230px;
+			
+		}
+#column1 {
+			float: left;
+			width: 210px;
+			\width: 210px;
+			w\idth: 210px;
+			margin: 0;
+			padding: 10px;
+			
+		}
+#credits {
+			clear: both;
+			padding: 10px;
+			margin-top: 0;
+			
+		}

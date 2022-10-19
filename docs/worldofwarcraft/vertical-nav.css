@@ -1,0 +1,62 @@
+/* navigation styles */
+#menu {
+	margin: -100px 20px 0 200px;
+	width: 420px;
+	float: right;
+	
+}
+
+#nav, #nav ul {
+	/* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	float: left;
+	width: 15em;
+	background: #BD9476;
+	
+}
+	
+	#nav li { /* all list items */
+		position : relative;
+		float : left;
+		line-height : 1.25em;
+		margin : 3px 0 -1px 0;
+		width: 15em;
+	}
+	
+	#nav li ul { /* second-level lists */
+		position : absolute;
+		left: -999em;
+		margin-left : 13em;
+		margin-top : -1.35em;
+		border: .03em solid #444;
+		
+	}
+	
+	#nav li ul ul { /* third-and-above-level lists */
+		left: -999em;
+	}
+	
+	#nav li a {
+	width: 12em;
+	w\idth: 11em;
+	display: block;
+	color: #720B02;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 0 0.5em;
+}
+	
+	#nav li a:hover {
+	color: #124485;
+
+}
+	
+	#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+		left: -999em;
+	}
+	
+	#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul { /* lists nested under hovered list items */
+		left: auto;
+	}

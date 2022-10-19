@@ -1,0 +1,14 @@
+Each section has an ID. Home page is 'indexpp', Joining-'joinpp', Member Guide-- 'memberpp', FAQ-'faqpp'. Place the appropriate section ID name into the body id location. This will enable each section to have a separate background image as well as allow for future  customization of sections. This comment can be removed from production pages.
+
+The template is organized using PHP instead of plain HTML. Using this methodology allows the common elements -- navigation menu, footer, css references -- to each be contained in their own individual file and called into the final file by the server. This way only one file needs to be touched when the menu changes for example. Not all files. It also means we can add a search function at a later date to search the flat files.
+
+All PHP include files are found in the includes directory.
+
+
+Column 1:
+
+Intended to be used as a place for highlighted information, event announcements, images (none wider than 200px) etc.
+
+Column 2:
+
+Intended to be used as the main textual content column. Images placed here shouldn't be any wider than 380 pixels. The style sheet handles the placement of images in the textual flow. Just be sure to specify the dimensions of the image and provide some alternate text with each when you add them. By default all images should go into the images directory.
