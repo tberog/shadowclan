@@ -1,0 +1,26 @@
+body {
+	background-color: #000000;
+	font-family: Tahoma;
+	line-height: normal;
+	color: #FFFFFF;
+}
+
+td, th {
+	font-family: tahoma;
+	line-height: normal;
+	color: #FFFFFF;
+	font-size: smaller;
+
+}
+
+a {
+	color: #990000;
+}
+.head2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.head3 {
+	font-size: 16px;
+	font-weight: bold;
+}
