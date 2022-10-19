@@ -1,0 +1,34 @@
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 120%;
+
+}
+a:visited {
+	color: #FF4444;
+	text-decoration: none;
+
+}
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+
+}
+a:link {
+	color: #FF4444;
+	text-decoration: none;
+}
+
+.menu:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.menu:hover {
+	color: #FF4444;
+}
+.menu:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
